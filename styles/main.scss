@@ -8,3 +8,8 @@
 @import "components/component-5/index.scss";
 @import "components/component-6/index.scss";
 @import "components/component-7/index.scss";
+
+body, html
+{
+    min-width: 320px;
+}

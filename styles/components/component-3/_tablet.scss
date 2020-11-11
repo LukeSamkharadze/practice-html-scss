@@ -19,7 +19,9 @@
       display: block;
 
       .image-area {
-        background-color: gray;
+        background-image: url("../../../images/component-3/image-2.jpg");
+        background-size: cover;
+        background-position: center;
         margin: auto;
         height: 420px;
       }

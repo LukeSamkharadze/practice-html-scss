@@ -5,16 +5,17 @@ html, body {
 
 .component-1 {
   width: 100%;
-  min-width: 1500px;
   background-color: #000000;
-  padding: 31px 19.6% 26px 19.5%;
+  min-width: 1300px;
+  padding: 31px 0 26px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
 }
 .component-1 .logo {
   display: flex;
+  transform: translate(85%, 5%);
 }
 .component-1 .logo .text-1 {
   font-family: "Raleway";
@@ -28,6 +29,7 @@ html, body {
   display: flex;
   align-items: center;
   column-gap: 39.5px;
+  transform: translate(-14.7%, 3%);
 }
 .component-1 .navigations .navigation {
   font-family: "Open Sans";
@@ -43,9 +45,13 @@ html, body {
 
 @media screen and (max-width: 1024px) {
   .component-1 {
+    min-width: initial;
     padding: 30px 28px 30px 25px;
     align-items: flex-start;
     justify-content: space-between;
+  }
+  .component-1 .logo {
+    transform: initial;
   }
   .component-1 .navigations {
     display: none;
@@ -326,7 +332,9 @@ html, body {
     display: block;
   }
   .component-3 .tablet .image-area {
-    background-color: gray;
+    background-image: url("../../../images/component-3/image-2.jpg");
+    background-size: cover;
+    background-position: center;
     margin: auto;
     height: 420px;
   }
@@ -546,6 +554,7 @@ html, body {
 @media screen and (max-width: 767px) {
   .component-4 {
     padding: 35px 0 40px 0;
+    background-color: #000000;
   }
   .component-4 .text-1 {
     font-size: 27px;
@@ -1044,6 +1053,9 @@ html, body {
   .copyright {
     margin-right: 7px;
   }
+}
+body, html {
+  min-width: 320px;
 }
 
 /*# sourceMappingURL=index.css.map */
