@@ -264,12 +264,22 @@ html, body {
   height: 414px;
   background-color: white;
 }
-.component-3 .container .image .background {
+.component-3 .container .image .background-scroller {
   position: absolute;
   top: 21px;
   left: 21px;
   width: 468px;
   height: 263px;
+  overflow: scroll;
+}
+.component-3 .container .image .background-scroller .background {
+  background-image: url("../../../guide/Desktop.jpg");
+  width: 468px;
+  height: 1100px;
+  background-size: 100%;
+}
+.component-3 .container .image .background-scroller::-webkit-scrollbar {
+  display: none;
 }
 .component-3 .container .container-2 {
   display: grid;

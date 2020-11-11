@@ -40,12 +40,24 @@
         background-color: white;
       }
 
-      .background {
+      .background-scroller {
         position: absolute;
         top: 21px;
         left: 21px;
         width: 468px;
         height: 263px;
+        overflow: scroll;
+
+        .background {
+          background-image: url("../../../guide/Desktop.jpg");
+          width: 468px;
+          height: 1100px;
+          background-size: 100%;
+        }
+      }
+
+      .background-scroller::-webkit-scrollbar {
+        display: none;
       }
     }
 
