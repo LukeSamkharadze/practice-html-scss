@@ -3,8 +3,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #ffffff;
-  background-color: #292929;
+  color: $white;
+  background-image: url("../../../images/component-2/image-1.jpg");
+  background-position: center;
   text-align: center;
   position: relative;
   padding: 240px 0 257px 18px;
@@ -33,7 +34,7 @@
 
   .button-wrapper {
     margin: 37px 0 0 4px;
-    background-color: #3ab6b2;
+    background-color: $green;
     padding: 3px;
 
     .button {
@@ -42,9 +43,9 @@
       font-size: 13px;
       padding: 10px 31px;
       box-sizing: border-box;
-      background-color: #3ab6b2;
-      border: 1px solid white;
-      color: white;
+      background-color: $green;
+      border: 1px solid $white;
+      color: $white;
     }
   }
 
@@ -56,7 +57,7 @@
 
   .right-button {
     position: absolute;
-    right: 33px;
+    right: 50px;
     top: 39.5%;
   }
 }

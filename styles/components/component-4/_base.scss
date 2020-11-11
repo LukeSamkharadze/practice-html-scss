@@ -1,6 +1,6 @@
 .component-4 {
   width: 100%;
-  background-color: #1e1e1e;
+  background-color: $gray-4;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@
     font-family: "Raleway";
     font-size: 31px;
     font-weight: 600;
-    color: #fffefe;
+    color: $white;
     margin-bottom: 5px;
   }
 
@@ -29,42 +29,41 @@
       align-items: center;
       text-align: center;
 
-      .icon-wrapper
-      {
+      .icon-wrapper {
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
         height: 145px;
 
-        .background-1
-        {
+        .background-1 {
+          @include transition;
+          
           position: absolute;
           opacity: 0;
         }
 
-        .background-2
-        {
+        .background-2 {
+          @include transition;
+
           position: absolute;
         }
 
-        .small-icon
-        {
+        .small-icon {
           position: relative;
           z-index: 1;
         }
       }
 
-      .icon-wrapper:hover .background-1
-      {
-        transition: 500ms ease;
-        opacity: 100;
+      .icon-wrapper:hover .background-1 {
+        @include transition;
 
+        opacity: 100;
       }
 
-      .icon-wrapper:hover .background-2
-      {
-        transition: 500ms ease;
+      .icon-wrapper:hover .background-2 {
+        @include transition;
+
         opacity: 0;
       }
 
@@ -73,7 +72,7 @@
         font-family: "Raleway";
         font-size: 20px;
         font-weight: 700;
-        color: #3ab6b2;
+        color: $green;
         letter-spacing: 0.25px;
       }
 
@@ -81,7 +80,7 @@
         font-family: "Open Sans";
         font-size: 14px;
         line-height: 22px;
-        color: white;
+        color: $white;
         letter-spacing: 0.2px;
       }
     }

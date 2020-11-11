@@ -1,7 +1,8 @@
 .component-1 {
   width: 100%;
-  background-color: #000000;
-  padding: 31px 370px 26px 365px;
+  min-width: 1500px;
+  background-color: $black;
+  padding: 31px 19.6% 26px 19.5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,7 +17,7 @@
       font-weight: 300;
       margin-top: 6px;
       letter-spacing: 0.8px;
-      color: white;
+      color: $white;
     }
   }
 
@@ -28,12 +29,15 @@
     .navigation {
       font-family: "Open Sans";
       font-size: 14px;
-      color: white;
+
+      .no-style {
+        @include no-style;
+        color: $white;
+      }
     }
   }
 
-  .button
-  {
+  .button {
     display: none;
   }
 }

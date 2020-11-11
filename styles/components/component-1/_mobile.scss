@@ -11,29 +11,18 @@
       }
 
       .text-1 {
-        font-family: "Raleway";
         font-size: 27.22px;
-        font-weight: 300;
         margin-top: 6px;
         letter-spacing: 0.4px;
-        color: white;
       }
     }
 
-    .navigations {
-      display: none;
-    }
-
     .button {
-      @include flex-center;
       flex-direction: column;
       row-gap: 3.3px;
       width: 45px;
       height: 26px;
       margin-top: 7px;
-      background-color: $green;
-      border: 1px solid white;
-      outline: 2px solid $green;
     }
   }
 }

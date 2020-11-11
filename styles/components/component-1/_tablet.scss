@@ -16,11 +16,11 @@
       height: 35px;
       margin-top: 7px;
       background-color: $green;
-      border: 1px solid white;
+      border: 1px solid $white;
       outline: 2px solid $green;
 
       .line {
-        background-color: white;
+        background-color: $white;
         width: 75%;
         height: 2px;
       }
