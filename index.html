@@ -6,10 +6,496 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/build/index.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    
+    <div class="component-1">
+        <div class="logo">
+            <img class="logo-picture" src="images/component-1/image-1.png">
+            <div class="text-1">ARRY</div>
+        </div>
+        <div class="navigations">
+            <div class="navigation">HOME</div>
+            <div class="navigation">ABOUT</div>
+            <div class="navigation">SERVICES</div>
+            <div class="navigation">PORTFOLIO</div>
+            <div class="navigation">TESTIMONIALS</div>
+            <div class="navigation">TEAM</div>
+            <div class="navigation">BLOG</div>
+            <div class="navigation">CONTACT</div>
+        </div>
+
+        <button class="button">
+            <div class=line></div>
+            <div class=line></div>
+            <div class=line></div>
+        </button>
+    </div>
+
+    <div class="component-2">
+        <div class="text-1">Walk With Parry</div>
+        <div class="text-2">You Will Love It</div>
+        <div class="text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum <span
+                class="mobile-remove">eget faucibus</span> </div>
+
+        <div class="button-wrapper">
+            <button class="button">READ MORE</button>
+        </div>
+        <svg class="left-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="23" height="37" viewBox="0 0 23 37">
+            <g id="Arrow_Left" data-name="Arrow Left" transform="translate(-39 -401)">
+                <image id="prev" width="23" height="37" transform="translate(39 401)"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAlCAYAAACpmHIGAAAAAXNSR0IArs4c6QAAAhhJREFUSA2tlz1IW2EUhhOpQ0AFRaTgIDoIDlYQpWA3HboqiE6WOoiCCgUV3CJ1cCm0U5eAXbpVRDoUhUIXBYdCoZ0qLg4K4iAUxEVMn3NJwsl3z3dzk3tfeM35fU5A49VssVjMpKgVWCP4dcAUeEpehFPWN4LhtMDrZap6XUoD/lYBJXzEkziTFP5eaEr3xOM44CaBf1JQCW/xCK4wK4Euxoj3mdG6JOnHVbyqxG0aeTO171jrL0k3DrFCBWuoVGvj9RRr/SRpxybHLBrDT6n9xlo/SHLYy/A21FIf8TnW+kqSxZH7kU2Wn+FrrPWZpNZe0I8aGgNyp6nEH+OCZc4Hf0lTPmlaOyS+ebNuFac1sRRv1guWeRc+b4CXGwG78DcGWI65byB2LoOdeNsBy0/IFI4NsmZleQO7ylNIBJZ9AXTgLawl73wGJzqgl1c1vRQvJDmg4RK/Mg6sNXrAhUsu30hX8iizZiNrvuYEsAfnwod6D/jgUn+O/zkHdus5EAWX3gC+cg7sxT1QCy79HnyGtY5I5JEXuR/ZVMtdxL+w1glJK/YyvA1jqYXaMdb6QyKPQJNjFn3D1JvwIda6IOnFIVaoYA0ZtS/UtG5IBnEVrypxmzXyAn0teSS+wBVmJdDFOuJ3zGrJB08ekQE3KVz289jVLIXQY67RY9bf56uNwqw9+fVc1gHB0JPgf5d0vhTA5PAonhPkf6H1D0cnpdNLAAAAAElFTkSuQmCC" />
+            </g>
+        </svg>
+        <svg class="right-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="23" height="37" viewBox="0 0 23 37">
+            <g id="Arrow_Right" data-name="Arrow Right" transform="translate(-1857 -401)">
+                <image id="prev_copy" data-name="prev copy" width="23" height="37" transform="translate(1857 401)"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAlCAYAAACpmHIGAAAAAXNSR0IArs4c6QAAAhtJREFUSA2tlj9IHFEQxu8ECyEGFAmCRdBCsIiCBAKxi4VtBNFOsBADIggqpDMkRZqAEoKNoILpIiIWIQHBRkFQEExlsEkRQVIEBLEJXn4juzI7+/btnW8/+HjzzZv5ef65W8uVSqUUaY3zCH+KcvgBvBd/xbEmKEpFWCCvYqo6Z4uCyxd4iW8UXMq3OOg70MsvgF0LVWmBWs/UVNvhp8D+KriUq9jOVZVdQ53AfmOtTYJr1tvLumwDdqrp1Du4HmftpPqphlpuoj7CWgeEh9i3d3d3V2QsNNDfxVonhFact1vKHQBSxttY64zQgb373kuz/FnTqS9wt5lJ8BLBNxjdLXFqXRGeYyfH2cwajvrvObXknT2AU6xUwzXk6L2mZzVEI8FLBHuZkyctnTymd0Lgsiswq2kat9xQuOwPYvnL0XpHaCkCLox5TY7quSLgw8DsK39DrzkUPu54xVP0brkh8BkHeDQGy3lfuDwCreQXm+Algr3MyIuG+o/c75qtFb5iwJfkZy6w9GqBbxjwObkrC1wtXB5t37HWT8Jj7H1x3kuWG/E+1jomPMJ5u94fizzKfmgq9R5+gHPBMpM11M7lL6z1jVCHs3ZS/VSD5Sf4D9b6QnDNenv2sg+IPLq0lgl2rqqsh+RRJW8IrQ8EPVNTHQ+PaGJUz4eAZVfg8ilmVdj/5z2QtxRdPkbj7yjoLAso0jrnIf4YN0LP/2BRFAuvvuzIAAAAAElFTkSuQmCC" />
+            </g>
+        </svg>
+
+    </div>
+
+    <div class="component-3">
+        <div class="text-1">WHO <span class="we-are">WE ARE</span></div>
+
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108"
+            height="17" viewBox="0 0 108 17">
+            <rect id="Seperator" width="37" height="1.1" transform="translate(0 10)" fill="#d3d3d3" />
+            <rect id="Seperator-2" data-name="Seperator" width="37" height="1.1" transform="translate(71 10)"
+                fill="#d3d3d3" />
+            <image id="Speak_Icon_" data-name="Speak Icon " width="16" height="17" transform="translate(46.5)"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAAXNSR0IArs4c6QAAAW9JREFUOBGNkz1LA0EQhi/RJklnLVgoWKW5s/EDRBGsgoI/QFQEaxuJnTbaaCOIoqhYmcZGkhBsbAKBcLWNVlYWooUIIno+c9mVZbO5uPDczL47M/t5XhRF3n/wfb/kikuJmNSCIEgxPgM16AvD8M2MT5sdl0+CzHAGx7Bvx3QtwAouSeqHT1iyCyRugeRJEu5U0iP2HpqsaltpnrOA2vcOQRs6UNlN7BbkKPIlWqctHDJmJ0v8MlSgIB1pvS3T+jLzIl4Rhk3d8IfwT+AIrkWPV0DiKchpX0AJxO/UZhl4Jj5eRRpnHGHFiB7Dbxh9251GOIcDGZAtyEMx2xSdPRiFK3iCKrzDK6xBBrJMno9vAecBYRB0K3LKu+g92G8taouexc8w9qIPcR1hDnIwDyPguZKV/oEV/q7xhmA5B7mmW1hgljy2a2t7SCSukiXvoAkTFP5JqhJfoxVQpl8HOUS9RSvE6Lr+cf79AZfu0n4Brau/TeFlJBkAAAAASUVORK5CYII=" />
+        </svg>
+
+        <div class="desktop">
+            <div class="container">
+                <img class="image" src="images/component-3/image-1.png">
+                <div class="container-2">
+                    <div class="text-1">SOME WORDS ABOUT US</div>
+                    <div class="text-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a
+                        consequat. In
+                        hendrerit consectetur vestibulum. Ut pulvinar, urna non sodales lobortis, est eros iacul elit, a
+                        venenatis purus nibh rutrum diam.
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                            height="24" viewBox="0 0 24 24">
+                            <image id="settings" width="24" height="24"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAghJREFUSA2llUtLm0EUhqO04sq4rAt14wWpdVME8R/oj1DEhXivG/1LBVGK7cI/IYqIIF6Ili5cWShoUhLj84bvjCfjF/0SD7yZ99zmzJyZ+ZKrVqu5jFgnrpJgMWNOrj2XXaYIVbwwnTUtrcAgyR3RBIr77Gyj8Dani3YC5dZLtNUF9EdwBIYT3yTjDxDLDoYJoBaPgBOg3HkQ2h4IxoEkgKEmRX6vE/7aUMBZcgE6p35Qm9sX6MColb9XDpjgI3hRQAa1RStvVe5JVCfCwuNDPuOEbutPqSntD9EXPiMuMImzzwc0yQeIH/c5voD4pnc6XoQvgS6QB6ugBNJkC+PzFaZfeqH74DdoJGkvd7VRMPYboDmX2/ipUNHvJG1VWvm/yNGNfhfZYrX41sSW8Lxls2QcVWAF/AIF0EhmUxxzKTYzXUE051q4r7RK7doFaaK3oZ7nQTfYAP71ogb5DgvzBpIYJ0JY6+SrL6BV27ZsLED6TWlyPCd+yOfEhzyCs8cHNMl7ia8r4FvUyW6OW+9MyDyE6cNZm9vvQKv/4lb8AK/7rjifp2qLXrrJGOSTKX4H4t9AGeiTa1/Fcfg2iEW3xQ50CK6V679gBoR5A3FGXcMPTleMLoOev8klJM5VW/piu2+R7eovpGxKMuqqnTqb52b+D7kxxca0AuaLx58Y1GthL3Y20p8ADjrOJ3M3BB8AAAAASUVORK5CYII=" />
+                        </svg>
+                    </div>
+                    <div class="text-container">
+                        <div class="text-3">FEATURES ONE</div>
+                        <div class="text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17"
+                            height="24" viewBox="0 0 17 24">
+                            <image id="location" width="17" height="24"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAYCAYAAAAcYhYyAAAAAXNSR0IArs4c6QAAAY9JREFUOBGVlM8qRVEUxo/bNVFyb90H4D6APyUD3G4yMPAAxCuIlKE38ACmRoq5kihGhPJnYiKGyJ+kTITr93H2bp/Vvrdj1XfW+r5vrXXO2Z1O0mg0EoMu+CLYBy/gK83i0uVnZjIEcxY8g1Yhfwb4WV8gLreajHjq/513S6YiTXmkaS1q49KZJMkNqAAbpwi3oAcMWhP+BKp6krnILR/QasA9qfIouAc25mXuWhU+BsIFrq5Hevdk6q5hXELcUCyfh83UjwXeqWTeVWfQKqxf1pI3M9FtuKU65DDeteQqVKh7Qd1ojtYo+hxJ87WWHBhRdAOMGH0Yvmk00SN9J/0UZxFT0jHQN1QFQyAWk+70T8yJ56V3NBb1OoqVv/Tv6yoTn+5JCmy8yHv7tO+VXAaJW6I8npp505IWCOES1es5N+irbtcCwS6pIOqwWsUH5gDws74IxAnqb9AsFjAycxkSmM3+cmtBj5/1RcTUQBjbEH8O1H7WF6GY1kXyDlAcgg4Q7Y+KQXOJegvowJv2/gCY5BBdyH81+gAAAABJRU5ErkJggg==" />
+                        </svg>
+                    </div>
+                    <div class="text-container">
+                        <div class="text-3">FEATURES TWO</div>
+                        <div class="text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24"
+                            height="22" viewBox="0 0 24 22">
+                            <image id="heart" width="24" height="22"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAYAAADafVyIAAAAAXNSR0IArs4c6QAAAWZJREFUSA21lsFKQkEYhbthRrsWbWpf0Jsk2KIWEoQRlFC0SIh8iHoZV0GLeoDaBAat6gUqooVimk3fKa6MOXPv1ZwDH/d3zj/nn6tcNTLGTDk0zZoMp+noj1jTnt5fT4ux5ihqcA9daMIFFMCnIsYltKADDTiBWfiV7gCWoAE+XWGsgHrFMlyDT3cYi8B7YMwM3ECaWjQcwB4005rxbyGnAfsZmsdtqegzKMdvV4BrOeJobwTPBwhX5LvuIB8oXLF5DXgKOOBRA+oBB9T1GSww4AF0naSeCVvVHbxACT5gUmoTpMzX+MnUtQgd+K/aBKzBT7Y9QPUGdGFc6YDr0M/tF9ZiifoTRpUOtgkDmQMvLHObugdZpQNtwVDe0ILVtEv9BWnSQXbAmeVctJor1ElD5Onb1ZvjNaxNR9Q+HWIkZiSa1uaqY8Kx5XtzvIZjc80acurwnVm5ER7dM3r1W6s/AudZ930DTcoamCTuxV0AAAAASUVORK5CYII=" />
+                        </svg>
+                    </div>
+                    <div class="text-container">
+                        <div class="text-3">FEATURES THREE</div>
+                        <div class="text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    </div>
+
+                    <div class="icon-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22"
+                            height="22" viewBox="0 0 22 22">
+                            <image id="new" width="22" height="22"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAAXNSR0IArs4c6QAAAVFJREFUOBGtkz1OxDAQRhNEA1QISoqV6Pm5AS0NSNTbcgzECiFRcKgt4RBAxTaBAhoow/u8nqwd5ccJO9KLPc7Mk+XEWVmWV1BAaswozAJy5nfwC88whUwF/5GqfwILCGOqF6kxo1D1hnZ6CTuwD3OweKqLralvlPTeW94YT2EL5qD4GSMOpUtNWX4zOYE9eIfboeImKR4XLzy34QDcx3Or/tF1BF1Sc5xLKlJ3nCK9MWmqeLAUcd6341FSxI9d4rHSB8TuoDVauIMn0TiB+o2yOo3RmZKrR1fbhZIwlIsLaLpRVtskjVxR4qW2pht1DOGNkrhNan2qaT0K95LHF0huN6pLGon1gfibq8j9LFx7Ze0IdmHh37cNVd9GW0Wwfsj8DPqkQUuWbUbZKrGdr1YGzlJ2PFC5LK/vuDqjUbagSTv+DPJ1TQuJr+FjXUY8hZx/K+6Xpu1PpWgAAAAASUVORK5CYII=" />
+                        </svg>
+                    </div>
+                    <div class="text-container">
+                        <div class="text-3">FEATURES FOUR</div>
+                        <div class="text-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tablet">
+            <div class="image-area"></div>
+            <div class="text-2">SOME WORDS ABOUT US</div>
+            <hr class="line">
+
+            <div class="text-3 main-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a conseq uat. In
+                hendrerit cons ectetur vestibulum. Ut pulvinar, urna non sodales lobortis, est eros iaculelit, a
+                venenatis purus nibh rutrum diam Aene
+                an in purus bibendum, hendrerit dolor quis.
+            </div>
+            <div class="text-3 mobile-text">
+                Lorem ipsum dolor sit amet, consectetur elit adipiscing elit. Pellentesque semper vel leo a consequat.
+                In hendrerit.
+            </div>
+
+            <div class="container">
+                <img src="images/component-3/tablet/image-1.png">
+                <div class="text-4 main-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a consequat. In
+                    hendrerit consectetur vestibulum.
+                </div>
+                <div class="text-4 mobile-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque semper.
+                </div>
+
+                <img src="images/component-3/tablet/image-1.png">
+                <div class="text-4 main-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a consequat.
+                </div>
+                <div class="text-4 mobile-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+
+                <img src="images/component-3/tablet/image-1.png">
+                <div class="text-4 main-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a consequat. In
+                    hendrerit.
+                </div>
+                <div class="text-4 mobile-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.
+                </div>
+            </div>
+
+            <button class="button">READ MORE</button>
+
+        </div>
+    </div>
+
+    <div class="component-4">
+        <div class="text-1">SERVICES</div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="19"
+            viewBox="0 0 111 19">
+            <image id="services" width="19" height="19" transform="translate(45.5)"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAbhJREFUOBGVlD0oRWEYx6+vfFxfieKWRQZhwmBQKBksFmW1MjAwiZEMRpvB12KglIGysFBKKYNkYDNYuN1IXMfvf7wP772uLv/63efzPc9zOufcSBAEkX9QTO8m9Lozy9hx50f+cyHr5WwQhx05aA7CWn7kb6qnbQzi8AxlMAhSM0zAk03LZlvDHT5/XjHD0Aa2nSp72S7i12M6gdbB8jlhJggOlMvVnn9QNT3Trq/R6+91fhu2xyak224mjWiaoxkrPXya4AirDZ8hCbr1Q2tOt5cUpSLwaxXEdkHVpWkohXK7zVHWvIIB6IcYSPPQAcewBo8QhRXoAqkSEhC3qZMakUUX1KPQDnauA7/FYkvKnoLpGGfXAmfrsH7/D1+JGuiHR5AWwRo1OaEkWoAGKACrp1gFvt4IUhqIV/0G/KkMPeEZPYB9uAMpB2pD7/vHHsY7qTO4/C6led6Ua7fBCbYJdPszLifTB+lbp8T2oecx48XN6cRquuJCl5MJPD+z66YtaTS6gVs5ns49vwQ/ZRs/ts02GKUXbxaScA9VMATboO9Sm9n2uBnkX9nzt/D1B/jra+D1fm36AflnTyMid6lgAAAAAElFTkSuQmCC" />
+            <rect id="Seperator" width="37" height="1.1" transform="translate(0 10)" fill="#d3d3d3" />
+            <rect id="Seperator-2" data-name="Seperator" width="37" height="1.1" transform="translate(74 10)"
+                fill="#d3d3d3" />
+        </svg>
+
+        <div class="container">
+            <div class="element">
+
+                <div class="icon-wrapper">
+                    <img class="background-1" src="images/component-4/image-5.png">
+                    <img class="background-2" src="images/component-4/image-1.png">
+                    <img class="small-icon" src="images/component-4/image-2.png">
+                </div>
+
+                <div class="text-2">OUTRANK COMPETITION</div>
+                <div class="text-3">Ut wisi enim ad minim veniam, quis trud exerci tation ullamcorper scipit
+                    lobortis
+                    nisl ut aliquip ex ea comodo consequat.</div>
+            </div>
+
+            <div class="element">
+                <div class="icon-wrapper">
+                    <img class="background-1" src="images/component-4/image-5.png">
+                    <img class="background-2" src="images/component-4/image-1.png">
+                    <img class="small-icon" src="images/component-4/image-3.png">
+                </div>
+
+                <div class="text-2">MORE WEBSITE VISITORS</div>
+                <div class="text-3">Ut wisi enim ad minim veniam, quis trud exerci tation ullamcorper scipit
+                    lobortis
+                    nisl ut aliquip ex ea comodo consequat.</div>
+            </div>
+
+            <div class="element">
+                <div class="icon-wrapper">
+                    <img class="background-1" src="images/component-4/image-5.png">
+                    <img class="background-2" src="images/component-4/image-1.png">
+                    <img class="small-icon" src="images/component-4/image-4.png">
+                </div>
+
+                <div class="text-2">INCREASE SALES</div>
+                <div class="text-3">
+                    Ut wisi enim ad minim veniam, quis trud exerci tation ullamcorper scipit lobortis
+                    nisl ut aliquip ex ea comodo consequat.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="component-5">
+        <div class="text-1">PORTFOLIO</div>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111"
+            height="16" viewBox="0 0 111 16">
+            <rect id="Seperator" width="37" height="1.1" transform="translate(0 8)" fill="#d3d3d3" />
+            <rect id="Seperator-2" data-name="Seperator" width="37" height="1.1" transform="translate(74 8)"
+                fill="#d3d3d3" />
+            <image id="Portfolio" width="16" height="16" transform="translate(46.5)"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJRJREFUOBGlU0EOgCAMA+OLIBH/fzDhwJuQEcuhDjBCYibd1pWKNudseHnvY8EOwmNK6STMbAw8e24WOGi1PYJaWyZaebRGYNY5p8lFfhajKNDkzhqRDzveZlJRh1iMru4PPUDxKC4TtCPwFEgE3juifIX3TULXh9gU8ISZAuQbAQ9jQs5jv2ziMsGyiaJA/oW/67oB6W0nS9G5Z6IAAAAASUVORK5CYII=" />
+        </svg>
+
+
+        <div class="container">
+            <div class="element span2">
+                <div class="hover">
+                    <div class="buttons-area">
+                        <div class="icon">
+                            <img src="images/component-5/image-1.png">
+                        </div>
+                        <div class="icon">
+                            <img src="images/component-5/image-2.png">
+                        </div>
+                    </div>
+
+                    <div class="text-area">
+                        <div class="text-2">A WORK OF PHOTOGRAPHY</div>
+                        <div class="text-3">Lorem ipsum dolor sit amat</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="hover">
+                    <div class="buttons-area">
+                        <div class="icon">
+                            <img src="images/component-5/image-1.png">
+                        </div>
+                        <div class="icon">
+                            <img src="images/component-5/image-2.png">
+                        </div>
+                    </div>
+
+                    <div class="text-area">
+                        <div class="text-2">A WORK OF PHOTOGRAPHY</div>
+                        <div class="text-3">Lorem ipsum dolor sit amat</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element span2">
+                <div class="hover">
+                    <div class="buttons-area">
+                        <div class="icon">
+                            <img src="images/component-5/image-1.png">
+                        </div>
+                        <div class="icon">
+                            <img src="images/component-5/image-2.png">
+                        </div>
+                    </div>
+
+                    <div class="text-area">
+                        <div class="text-2">A WORK OF PHOTOGRAPHY</div>
+                        <div class="text-3">Lorem ipsum dolor sit amat</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="hover">
+                    <div class="buttons-area">
+                        <div class="icon">
+                            <img src="images/component-5/image-1.png">
+                        </div>
+                        <div class="icon">
+                            <img src="images/component-5/image-2.png">
+                        </div>
+                    </div>
+
+                    <div class="text-area">
+                        <div class="text-2">A WORK OF PHOTOGRAPHY</div>
+                        <div class="text-3">Lorem ipsum dolor sit amat</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element span2">
+                <div class="hover">
+                    <div class="buttons-area">
+                        <div class="icon">
+                            <img src="images/component-5/image-1.png">
+                        </div>
+                        <div class="icon">
+                            <img src="images/component-5/image-2.png">
+                        </div>
+                    </div>
+
+                    <div class="text-area">
+                        <div class="text-2">A WORK OF PHOTOGRAPHY</div>
+                        <div class="text-3">Lorem ipsum dolor sit amat</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="hover">
+                    <div class="buttons-area">
+                        <div class="icon">
+                            <img src="images/component-5/image-1.png">
+                        </div>
+                        <div class="icon">
+                            <img src="images/component-5/image-2.png">
+                        </div>
+                    </div>
+
+                    <div class="text-area">
+                        <div class="text-2">A WORK OF PHOTOGRAPHY</div>
+                        <div class="text-3">Lorem ipsum dolor sit amat</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="element">
+                <div class="hover">
+                    <div class="buttons-area">
+                        <div class="icon">
+                            <img src="images/component-5/image-1.png">
+                        </div>
+                        <div class="icon">
+                            <img src="images/component-5/image-2.png">
+                        </div>
+                    </div>
+
+                    <div class="text-area">
+                        <div class="text-2">A WORK OF PHOTOGRAPHY</div>
+                        <div class="text-3">Lorem ipsum dolor sit amat</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="component-6">
+        <div class="text-1">CONTACT</div>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="111" height="16"
+            viewBox="0 0 111 16">
+            <image id="Phone" width="16" height="16" transform="translate(47.5)"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAATBJREFUOBGVk71KA0EUhTdRBMFGEEGwEQQrm93COo2ksbTRiLWpbJS8QSBYiVgaLC18AcUXkCyCVcAmKVSwEYJdlM13wo7o3Z2sXviYOXPPPfmZ3VIYht0gCNbA1W0cx5tOFK1lDCvGtG70RKmAd+NYjKJo1px5pQKeTFdnG+bMK2W+z+mu5pzlHingxnSu0JfmzCsVcAevqUODu9zCMNWFSxnzJ67T1NlHfxVO/TDoG6jO4Bka3MC/rzHgUz8YPoAZuCZkgfVPVUqS5NvIYAtxBA9QJfjNNelNsd+BDnTpjQdtgH7SBexDD7YxdtLhNnoPVAN4gcdfAepgVkgTjkF/8AksQw0ylQlwDoK22J+Dhr3lDdAEIXMsdTiEJcjUxADnJmiafQX0mus90aM+D70RM9tSkcpsivMAAAAASUVORK5CYII=" />
+            <rect id="Seperator" width="37" height="1.1" transform="translate(0 7)" fill="#d3d3d3" />
+            <rect id="Seperator-2" data-name="Seperator" width="37" height="1.1" transform="translate(74 7)"
+                fill="#d3d3d3" />
+        </svg>
+
+        <div class="container-1">
+            <svg class="location-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="26" height="34" viewBox="0 0 26 34">
+                <image id="Location" width="26" height="34"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAiCAYAAABBY8kOAAAAAXNSR0IArs4c6QAAAvVJREFUSA2lltuLTVEcx88Zx708oEyReHApNalBmkkueRGjXPJEiTNMlBczRaTTeCHJi5Kh/AUGM9N4ILyMy8ukEPLGuGc8kEzh+Hxn9j7W3ue39j7n+NV31m99f5fvXnuvtc5ki8ViJsmab/YuI74GrAWLwAygoi/gJbgrDGxoGWT0WtYnhEAjVcfAFm91NNDN9CSCj6P02MwUQqSDcAFMGUur+O93Mk8gdi5eUSaEyBmS2uOJVc5PIXbUralzJ4go+L8ianmEXpE+pRURWE3CPWWl2DDxiWBqSp42zCpWNqC8USFEcvgPgTaAZe8hz4P74C2YBBaAnSBps6hnM2J/JCBbD3wi2r67SX6tRMee4HfzkHsZL4JxTix0V+KsA7ezTf09+k6XwB4Qt6cQTYh8iwfcOWJ55uphWRdkm0TqgQ6jZYfTRFREzmWGW1YDOPWeJaE5YB6I2zOIO3EyYX7FE5sPPztcUdZIes6T/jJ4H/XKE9A+qJfQeE9CNSJq8dvTR3ROQjoXls21yARO39pnwxJ6AyyxFeymJb5Kg99mcKI+gSEJDQEdrLjp3RbipDXngZbD77JicA/Auzo++E8cXfGWbafJaSsQcsSX4l8HE0IuNl5FYyS8gmYS1En3veceYmeVQ9FXxgwCCxk2guNgOrBMb6tBNe6l2gZ5wcp2uBf4KtZd1wCmgSTbh8jojVESUjZPeYNhc1JlFbFriGwN87UZXMsz+eASNfrqsd+tjQjxBJ8JtroJNfqtQa9SeURILAl9DLpxa7WuoEekvkwoiB5i1E9EtaYa1ZaZKcQTjZCp71Wt5YPasjpTSFkUPGLoLKvwE51BjZnhFQqyC4y6QtJMOYWkpMg5shI5W4vhB8FkKw73AzSyGh1mr6WtSK9QDdq9HTKZjjQR1aauKBRgZb34m8J5MPYh0hLjzGnqipwq7cKPzlx+xTuzYiGeXI0POkIHAs6h/G7Fry5swSvsxy8iop+Iii1Xcea/xB24+r+6KvsLNufj8xH/RzUAAAAASUVORK5CYII=" />
+            </svg>
+            <div class="text-2">
+                129 LV High Street,<br>
+                United States
+            </div>
+
+            <svg class="mail-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="30" height="22" viewBox="0 0 30 22">
+                <image id="Mail" width="30" height="22"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAWCAYAAADXYyzPAAAAAXNSR0IArs4c6QAAAgJJREFUSA29ljtII0EAhjdyFjbaeL2ItnK+Ch8o2ikeiFrIdYpocfGNHhbioxeNYiMIAUFBsPEgpxaKkJMTfGAlVnIniNgp2Pi4+P2SkWVNNhGT/PA5s7Mz8+1sZhY95YH1QcuyyiCVCX7CJmlzKq24HtP4Mw5nkKqcIpqU+BJKYRWSnRUEcl1JPA/t0Aq98ACJzj0Ten/Xff1G2QU+idNhBrRiP1TBBSQqf5moEpYqfv1co5yCdIlNWqgcwB0UwiZ8NAEmKAKt+BCa4CV2sRryYR8aoB7G4D+8NxozCpqnEf5AHrxGx8mZDBr8oNfTA3uwDJ8hnlzTSb+lxi1CG7yJc8X2Dh1caPA56NWrHitBOqjvP9AqI0ppt9zEuv8F9NvoCFTDNESLNk0N6IOkvVIAURNLrIFZUAFPMAz6yt2CyQ0VbZoRUB/1zQTXxCPWSn7AHOyANl8xnIQpodQKd2GaszpAqePpmlhiSbXKWfgO2nDHkAN6pSIXjsL1Xs7qDPJ+rl3lbmKnlLleot29BUOgh9qAbDCJSx7pOGkCSTWxWana7PFwMWFvcNQlt1h5n0rS57gfcVfbpV7ngHdcu67c+aqN1IfgI1LzfFHldrFd2m1GJqCMKDfiZEnNc7+Re/ifq5a7Op/a/vo2JzO+8Iar8YRCIYudJ3lnMo22uReQbz8DbNaMm+K7LbUAAAAASUVORK5CYII=" />
+            </svg>
+            <div class="text-2">
+                +01 123-4567-8910<br>
+                youremail.co
+            </div>
+
+            <svg class="support-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="48" height="32" viewBox="0 0 48 32">
+                <image id="Support_" data-name="Support " width="48" height="32"
+                    xlink:href="data:image/png;base64,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" />
+            </svg>
+            <div class="text-2">
+                Take Our support<br>
+                Support@xy.co
+            </div>
+        </div>
+
+        <div class="container-2">
+            <input class="input" type="text" placeholder="Name">
+            <input class="input" type="email" placeholder="Email">
+            <input class="input span2" type="text" placeholder="Subject">
+            <textarea class="input text-area span2" placeholder="Message"></textarea>
+            <button class="send-message">SEND MESSAGE</button>
+        </div>
+
+    </div>
+
+    <div class="component-7">
+        <div class="logo">
+            <img src="images/component-1/image-1.png">
+            <div class="text-1">ARRY</div>
+        </div>
+
+        <div class="container">
+            <div class="element">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16"
+                    height="12" viewBox="0 0 16 12">
+                    <image id="Mail" width="16" height="12"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAAXNSR0IArs4c6QAAAOhJREFUKBWlkN0KAVEUhWdQk3fwIK5MEUJuZPyUKyRx6WHcewAXLnkrP1HS+NZ0Ts3EoOz6Znf2XnvN2ccNCeePyJnZG3kJ+x+9iug2kHd0A2IKF2iDap/w6Z9gBZFQuQAdkEkL0gx8ehqegGYSBhrqwhkaphc3KlGzw6q/NVAjAN2kDtZAwzLWqrYWGdhHjL+dx+EBWwjgCjvQQ98hGTgq5CbnIehPZejDEXTtMVRAvRFI+7JCzwhqRiBRBrKxs9bSegNIGMxMo0m2O6ZlaWQyh9DVh6W03wIOyQVTT1U6a/CsQaryW+MJVBiOXzGmmmkAAAAASUVORK5CYII=" />
+                </svg>
+            </div>
+            <div class="element">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14"
+                    height="13" viewBox="0 0 14 13">
+                    <image id="Twitter" width="14" height="13"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANCAYAAACZ3F9/AAAAAXNSR0IArs4c6QAAAQNJREFUKBWN0TFLAnEYx/EzDUK7KQgUFXTJ4SAwsJfh6O7g5NzW1ptoc3Fy1ak3YLhaoxQ1CJGKEA2Z1/cn3fHcIXgPfO6e57n/c3//Xsr3fSdBnLFmhd9gbYakgBPMgqa5X5H3cYEFbpHG2GHHNl7haXfjmPwN8Xim0Txieo0yJrjDORQeirsseplTPmiHUzyZ127IxxiZnk1vKBydsQnXvFRnuDZ1PH3ZNZh2oTMmiS2L8nCCP6NOMU0wOdSQHSxRLA8M/vD8UkMS7Kh7DT1owb7o0gzXK8lCv7uFR8Tjm0YH4ZByFQ0M8AUbHxT3qCIypDqly3/o01SQwyfeET4kj8QfDZioLj4FiX0AAAAASUVORK5CYII=" />
+                </svg>
+            </div>
+            <div class="element">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7" height="15"
+                    viewBox="0 0 7 15">
+                    <image id="Facebook" width="7" height="15"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAPCAYAAAAoAdW+AAAAAXNSR0IArs4c6QAAAJZJREFUGBlj/P//PwMUMAJpPSCWAGIQ+zIDSBKIOYD4ABAjgwQmoAoQSABiexADGbBAObpIgnFA9mYg/gaTZEaSfAxkfwDzgZZcAuLPSJa9ALIfAHEASKccEPOAVUIIcSj7M0iyH4gDgNgAKrgcSD8C4qswr8xAMtYByAaLw7wC1YRKDYQkI8hlQGACxCpQ5+wD0q9AbADOq14VzrZ15gAAAABJRU5ErkJggg==" />
+                </svg>
+            </div>
+            <div class="element">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16"
+                    height="10" viewBox="0 0 16 10">
+                    <image id="BE" width="16" height="10"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAKCAYAAAC9vt6cAAAAAXNSR0IArs4c6QAAARxJREFUKBV90r9KA0EQx/G5/GkEi1hYpBJJEZEQg5LGzpQ+hPgEASFYCDZ2voCvoaWIELSxUgsrY1AbMSIp1EIIyfn9XWZhbTLwuZmdHHO7d0nSNF00sw7GbkL+xTWuEGKeIu8L3fud1QyoQjHCAJ+YQNGGuXPyk7sMff0YBtyEJrkJRdwrsK67IjkbnPMtKSXQFqUMxeM0WZ3cw717Jm/A4h0w9F8MWVWQRw8fWMEqdMxbWCGbMr28kI6hHSxhD2fYRQV9tKH4QQML8YABjROE2KLQTWve0Fv/gh5wiuz48YASzW2kWEYN+qRdjFDEoddH5DkMZ72DMWfc1zlxAMU7XqHPvANLuOgP0kIceuId3qLmOvUmdIQLPMD+ADVlDAlXUkQTAAAAAElFTkSuQmCC" />
+                </svg>
+            </div>
+            <div class="element">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22"
+                    height="12" viewBox="0 0 22 12">
+                    <image id="Deviantart" width="22" height="12"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAMCAYAAABm+U3GAAAAAXNSR0IArs4c6QAAAVpJREFUOBGd0k0oBHEYx3GrtcoetAdOQqlVDlKsm5OblKOLi4scXDkqF7lQcnDhyFmSvJYclMTBwVtR5CJ72HDw0hrf38w8079tCvvUZ5/f/5mZ/87MbsLzvAqnmsndaMANNlBeaWNHJ9nqiZCGe/zPOaELS2qN9UA4O6DrhEZkUI1P5HGHU+ziEN+IqnTjXo7MoCs6I3gdR6yfkYJeUw490BepHjCLRXyB2wketZK+AKsPC/RJtOAqtEzXdbUYwyOszgmtiDaesiP0FXSgGM4K9Ay2wrXaIPoxh0u4lWeR1TfXw+7wlpyC5quwmibkbBHT35ntYRzt8O94iGC1RNCmVRi2If0NdVh3Zno18+hDDXRdRGECVteETbzawOm66zaMoAnRJnE5ye/34v+KwUeWJqoijrGNHZxAswv8Wtr4zDnrnmwb7ZMLzrH/RR5D/+VR+H+TuMcqZ/YDF5Y2cHLvbFEAAAAASUVORK5CYII=" />
+                </svg>
+            </div>
+            <div class="element">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23"
+                    height="11" viewBox="0 0 23 11">
+                    <image id="Flickr" width="23" height="11"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAALCAYAAACUPhZAAAAAAXNSR0IArs4c6QAAAVBJREFUKBWN080rRFEYx/FDMUZsaGZhMaHsWSOy9idoStlMzYL8C7JTlnZWku2srFxENiQbKRMLUV7KSwoLXd/f7Tl1us1c89SnZ56XOXObznVxHDszTF7FOeo4QhXd8DthVn8ZN/jFC9YxhGTPL0/ReECjOKBZhN9V7scJFJeIcArFOybgtKgnfkNWHDLshPaVL6AoI/zRaeprfKCkwQZaiTmWtL9gy0tWh4fr86jNN1XcWvFf2mFB+3vQk+WsTh+uuoavdudcAa1E0ZYGyJ/4yfhSnVmXDn/OWApHT1bck3uQC4epzyPU3zp8NzVoVtZssEXuRbXJ4hj9WWzr/9FteUVW7DPsgPaV9S4o5tEG9WUGekd0HZPbouYk7tAoIpoF+AOU+3AMxRUi+HuuBx1Hcs/9lwZprOAM+nXd7Qry8DthVn8R2tUb+og1lJDs/QEzKJAPo+h+hAAAAABJRU5ErkJggg==" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="copyright">
+            Parry © 2016. Design by Y Design Services.
+        </div>
+    </div>
 </body>
 
 </html>
