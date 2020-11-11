@@ -1,0 +1,42 @@
+@media screen and (max-width: 767px) {
+  .component-4 {
+    padding: 35px 0 40px 0;
+
+    .text-1 {
+      font-size: 27px;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      column-gap: 134px;
+      margin-top: 53px;
+      row-gap: 41px;
+
+      .element {
+        box-sizing: border-box;
+        width: 86%;
+
+        .text-2 {
+          margin: 34px 0 13px 0;
+          font-size: 18.96;
+          letter-spacing: -0.7px;
+        }
+
+        .text-2:nth-child(2) {
+          margin: 37px 10 0px 0;
+          letter-spacing: -0.3px;
+        }
+
+        .text-3 {
+          font-size: 12.98px;
+          letter-spacing: 0.2px;
+          line-height: 20px;
+        }
+
+        .text-3:nth-child(3) {
+          line-height: 21.5px;
+        }
+      }
+    }
+  }
+}
