@@ -4,7 +4,9 @@
     padding: 30px 28px 30px 25px;
     align-items: flex-start;
     justify-content: space-between;
-
+    display: flex;
+    box-sizing: border-box;
+    
     .logo {
       transform: initial;
     }

@@ -6,16 +6,17 @@ html, body {
 .component-1 {
   width: 100%;
   background-color: #000000;
-  min-width: 1300px;
-  padding: 31px 0 26px 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  padding: 25px 0 26px 0px;
+  display: grid;
+  grid-template-columns: 373fr 133fr 300fr 740fr 374fr;
   box-sizing: border-box;
+}
+.component-1 .shrinkable {
+  flex-shrink: 1;
 }
 .component-1 .logo {
   display: flex;
-  transform: translate(85%, 5%);
+  transform: translate(-3%, 0);
 }
 .component-1 .logo .text-1 {
   font-family: "Raleway";
@@ -29,7 +30,6 @@ html, body {
   display: flex;
   align-items: center;
   column-gap: 39.5px;
-  transform: translate(-14.7%, 3%);
 }
 .component-1 .navigations .navigation {
   font-family: "Open Sans";
@@ -49,6 +49,8 @@ html, body {
     padding: 30px 28px 30px 25px;
     align-items: flex-start;
     justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
   }
   .component-1 .logo {
     transform: initial;
@@ -105,7 +107,7 @@ html, body {
   flex-direction: column;
   align-items: center;
   color: #ffffff;
-  background-image: url("../../../images/component-2/image-1.jpg");
+  background-image: url("../../images/component-2/image-1.jpg");
   background-position: center;
   text-align: center;
   position: relative;
@@ -152,7 +154,7 @@ html, body {
 }
 .component-2 .right-button {
   position: absolute;
-  right: 50px;
+  right: 33px;
   top: 39.5%;
 }
 
@@ -273,7 +275,7 @@ html, body {
   overflow: scroll;
 }
 .component-3 .container .image .background-scroller .background {
-  background-image: url("../../../guide/Desktop.jpg");
+  background-image: url("../../images/component-3/image-3.jpg");
   width: 468px;
   height: 1100px;
   background-size: 100%;
@@ -632,7 +634,7 @@ html, body {
   grid-column: span 2;
 }
 .component-5 .container .element {
-  background-image: url("../../../images/component-5/image-3.jpg");
+  background-image: url("../../images/component-5/image-3.jpg");
   background-position: center;
   background-size: cover;
 }
