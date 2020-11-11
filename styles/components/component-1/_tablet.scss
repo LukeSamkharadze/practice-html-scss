@@ -1,0 +1,29 @@
+@media screen and (max-width: 1024px) {
+  .component-1 {
+    padding: 30px 28px 30px 25px;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .navigations {
+      display: none;
+    }
+
+    .button {
+      @include flex-center;
+      flex-direction: column;
+      row-gap: 3.3px;
+      width: 52px;
+      height: 35px;
+      margin-top: 7px;
+      background-color: $green;
+      border: 1px solid white;
+      outline: 2px solid $green;
+
+      .line {
+        background-color: white;
+        width: 75%;
+        height: 2px;
+      }
+    }
+  }
+}
