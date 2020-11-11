@@ -259,6 +259,11 @@ html, body {
   top: 5px;
   right: -45px;
 }
+.component-3 .container .image .image-holder {
+  width: 510px;
+  height: 414px;
+  background-color: white;
+}
 .component-3 .container .image .background {
   position: absolute;
   top: 21px;
