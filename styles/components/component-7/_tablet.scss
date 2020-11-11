@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+  .component-7 {
+    .container {
+      display: flex;
+      column-gap: 9px;
+      margin: 42px 10px 50px 0;
+
+      .element {
+        @include transition;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #707070;
+        border-radius: 3px;
+        width: 40px;
+        height: 40px;
+
+        &:hover {
+          @include transition;
+
+          background-color: #45629e;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+@media screen and (max-width: 767px) {
+  .component-7 {
+    padding: 40px 0 57px 0;
+
+    .logo {
+      .text-1 {
+        font-size: 32.49px;
+        font-weight: 300;
+        margin: 6px 0 0 -3px;
+        color: white;
+      }
+    }
+
+    .container {
+      @include flex-center;
+
+      column-gap: 9px;
+      margin: 42px 50px 42px 50px;
+      flex-wrap: wrap;
+      row-gap: 10px;
+    }
+  }
+
+  .copyright {
+    margin-right: 7px;
+  }
+}

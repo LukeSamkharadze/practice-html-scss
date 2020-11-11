@@ -1,0 +1,54 @@
+.component-7 {
+  width: 100%;
+  background-color: #111111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 47px 0 57px 0;
+
+  .logo {
+    display: flex;
+
+    .text-1 {
+      font-family: "Raleway";
+      font-size: 36px;
+      font-weight: 300;
+      margin-top: 6px;
+      letter-spacing: 0.8px;
+      color: white;
+    }
+  }
+
+  .container {
+    display: flex;
+    column-gap: 9px;
+    margin: 42px 0 50px 0;
+
+    .element {
+      @include transition;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #707070;
+      border-radius: 3px;
+      width: 40px;
+      height: 40px;
+
+      &:hover {
+        @include transition;
+
+        background-color: #45629e;
+      }
+    }
+  }
+
+  .copyright {
+    font-family: "Raleway";
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+}
