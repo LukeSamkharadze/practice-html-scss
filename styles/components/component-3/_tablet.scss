@@ -1,0 +1,84 @@
+@media screen and (max-width: 1024px) {
+  .component-3 {
+    padding: 71px 25px 75px 23px;
+
+    .text-1 {
+      letter-spacing: -1.5px;
+    }
+
+    .icon {
+      margin-bottom: 57px;
+    }
+
+    .desktop {
+      display: none;
+    }
+
+    .tablet {
+      width: 100%;
+      display: block;
+
+      .image-area {
+        background-color: gray;
+        margin: auto;
+        height: 420px;
+      }
+
+      .text-2 {
+        font-family: "Raleway";
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+        margin: 30px 0 35px 0;
+      }
+
+      .line {
+        display: none;
+      }
+
+      .mobile-text {
+        display: none;
+      }
+
+      .text-3 {
+        font-family: "Open Sans";
+        font-size: 13px;
+        color: $gray;
+        margin: 0 0 40px 1px;
+        line-height: 23px;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 10px 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 20px;
+        padding-right: 100px;
+
+        .mobile-text {
+          display: none;
+        }
+
+        .text-4 {
+          font-family: "Open Sans";
+          font-size: 13px;
+          color: $gray;
+          line-height: 23px;
+          margin: -1px 0 0 -105px;
+        }
+      }
+
+      .button {
+        margin-top: 37px;
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 13px;
+        padding: 14px 32px;
+        box-sizing: border-box;
+        background-color: $green;
+        border: 1px solid white;
+        color: white;
+      }
+    }
+  }
+}
