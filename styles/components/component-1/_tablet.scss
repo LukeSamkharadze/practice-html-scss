@@ -1,12 +1,14 @@
 @media screen and (max-width: 1024px) {
   .component-1 {
-    min-width: initial;
     padding: 30px 28px 30px 25px;
+    display: flex;
     align-items: flex-start;
     justify-content: space-between;
-
-    .logo {
-      transform: initial;
+    box-sizing: border-box;
+    
+    .shrinkable
+    {
+      display: none;
     }
 
     .navigations {

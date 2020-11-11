@@ -1,17 +1,19 @@
 .component-1 {
   width: 100%;
   background-color: $black;
-  min-width: 1300px;
-  padding: 31px 0 26px 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  padding: 25px 0 26px 0px;
+  display: grid;
+  grid-template-columns: 373fr 133fr 300fr 740fr 374fr;
   box-sizing: border-box;
+
+  .shrinkable
+  {
+    flex-shrink: 1;
+  }
 
   .logo {
     display: flex;
-    transform: translate(85%,5%);
-
+    transform: translate(-3%, 0);
     .text-1 {
       font-family: "Raleway";
       font-size: 36px;
@@ -26,8 +28,6 @@
     display: flex;
     align-items: center;
     column-gap: 39.5px;
-    transform: translate(-14.7%, 3%);
-
 
     .navigation {
       font-family: "Open Sans";

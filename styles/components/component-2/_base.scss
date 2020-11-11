@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   color: $white;
-  background-image: url("../../../images/component-2/image-1.jpg");
+  background-image: url("../../images/component-2/image-1.jpg");
   background-position: center;
   text-align: center;
   position: relative;
@@ -57,7 +57,7 @@
 
   .right-button {
     position: absolute;
-    right: 50px;
+    right: 33px;
     top: 39.5%;
   }
 }
