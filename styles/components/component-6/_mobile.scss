@@ -1,0 +1,79 @@
+@media screen and (max-width: 767px) {
+  .component-6 {
+    padding: 41px 0 46px 0;
+
+    .text-1 {
+      font-size: 27px;
+      margin-bottom: 13px;
+    }
+
+    .container-1 {
+      margin: 41px 0 38px 0;
+      width: 100%;
+      display: grid;
+      grid-auto-flow: row;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1r 1fr 1fr;
+      justify-items: center;
+      text-align: center;
+
+      .mail-icon {
+        margin: 30px 0 20px 0;
+      }
+
+      .support-icon {
+        margin: 30px 0 13px 0;
+      }
+
+      .text-2 {
+        font-family: "Raleway";
+        font-size: 15px;
+        text-align: center;
+        color: #606060;
+        letter-spacing: 0.9px;
+        line-height: 24px;
+      }
+
+      .text-2:nth-child(6) {
+        margin-right: 0.5px;
+      }
+    }
+
+    .container-2 {
+      display: grid;
+      width: 87.5%;
+      height: 361px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 45px 45px 45px 140px;
+      gap: 11px;
+
+      .span2 {
+        grid-column: span 1;
+      }
+
+      .input {
+        padding: 9px;
+      }
+
+      .input.text-area {
+        padding: 12px 9px;
+      }
+
+      .input::placeholder {
+        font-family: "Raleway";
+        font-size: 14px;
+        color: $gray;
+      }
+
+      .send-message {
+        font-family: "Raleway";
+        font-size: 13px;
+        font-weight: 700;
+        background-color: $green;
+        color: white;
+        border: none;
+        width: 160px;
+      }
+    }
+  }
+}

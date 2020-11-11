@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+  .component-6 {
+    padding: 75px 0 81px 0;
+
+    .text-1 {
+      font-size: 29px;
+      margin-bottom: 13px;
+    }
+
+    .container-1 {
+      margin: 56px 0 45px 0;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      justify-items: center;
+      text-align: center;
+      row-gap: 6px;
+      column-gap: 100px;
+
+      .support-icon {
+        margin-right: -3px;
+      }
+
+      .text-2 {
+        font-family: "Raleway";
+        font-size: 15px;
+        text-align: center;
+        color: #606060;
+        letter-spacing: 0.9px;
+        line-height: 24px;
+      }
+
+      .text-2:nth-child(6) {
+        margin-right: -9px;
+      }
+    }
+
+    .container-2 {
+      width: 94%;
+      height: 350px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 11fr 11fr 40fr 10fr;
+      column-gap: 10px;
+      row-gap: 15px;
+    }
+  }
+}

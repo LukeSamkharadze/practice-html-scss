@@ -1,0 +1,87 @@
+.component-6 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 90px 0 122px 0;
+
+  .text-1 {
+    font-family: "Raleway";
+    font-size: 31px;
+    font-weight: 600;
+    color: #323232;
+    margin-bottom: 13px;
+  }
+
+  .container-1 {
+    margin: 88px 0 80px 0;
+    width: 49.5%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    row-gap: 6px;
+
+    .mail-icon {
+      margin-top: 6px;
+    }
+
+    .support-icon {
+      margin-right: 30px;
+    }
+
+    .text-2 {
+      font-family: "Raleway";
+      font-size: 15px;
+      text-align: center;
+      color: #606060;
+      letter-spacing: 0.9px;
+      line-height: 24px;
+    }
+
+    .text-2:nth-child(6) {
+      margin-right: 25px;
+    }
+  }
+
+  .container-2 {
+    display: grid;
+    width: 49.7%;
+    height: 350px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 11fr 11fr 40fr 10fr;
+    gap: 15px;
+
+    .span2 {
+      grid-column: span 2;
+    }
+
+    .input {
+      padding: 9px;
+    }
+
+    .input.text-area
+    {
+      padding: 12px 9px;
+    }
+
+    .input::placeholder {
+      font-family: "Raleway";
+      font-size: 14px;
+      color: #7c7c7c;
+    }
+
+    .send-message {
+      font-family: "Raleway";
+      font-size: 13px;
+      font-weight: 700;
+      background-color: #3ab6b2;
+      color: white;
+      border: none;
+      width: 160px;
+    }
+  }
+}
