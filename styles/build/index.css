@@ -348,7 +348,7 @@ html, body {
     display: block;
   }
   .component-3 .tablet .image-area {
-    background-image: url("../../../images/component-3/image-2.jpg");
+    background-image: url("../../images/component-3/image-2.jpg");
     background-size: cover;
     background-position: center;
     margin: auto;
