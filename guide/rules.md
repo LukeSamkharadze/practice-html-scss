@@ -1,3 +1,23 @@
+rules.md
+
+Type
+Text
+Size
+1 KB (1,317 bytes)
+Storage used
+0 bytes
+Location
+5.Personal-Project-SCSS
+Owner
+Luka Chitaishvili
+Modified
+3:28 PM by Luka Chitaishvili
+Opened
+3:38 PM by me
+Created
+3:28 PM
+No description
+Viewers can download
 - Deadline - Wednesday 11.11.2020 09:00 AM
 - Repository - "personal-project-scss"
 - Select one project from two options (easy vs hard)
@@ -28,10 +48,10 @@
       - {component-name} - create separate folder for styles related to specific component.
         - index.scss
         - base.scss
-        - desktop-large.scss
-        - desktop-x-large.scss
-        - desktop.scss
-        - mobile.scss
-        - tablet.scss
+        - desktop-large.scss (1201 - 1600)
+        - desktop-x-large.scss  (1601+)
+        - desktop.scss (1025 - 1200)
+        - mobile.scss  (320 - 767)
+        - tablet.scss  (768 - 1024)
 - Student HAS TO use conventional commits
 - Student HAS TO use SCSS
