@@ -1,0 +1,62 @@
+.component-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  background-color: #292929;
+  text-align: center;
+  position: relative;
+  padding: 240px 0 257px 18px;
+  box-sizing: border-box;
+
+  .text-1 {
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: 62px;
+  }
+
+  .text-2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 74px;
+    letter-spacing: -2px;
+    margin: -10px 0px 5px 0px;
+  }
+
+  .text-3 {
+    font-family: "Raleway";
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: -0.08px;
+  }
+
+  .button-wrapper {
+    margin: 37px 0 0 4px;
+    background-color: #3ab6b2;
+    padding: 3px;
+
+    .button {
+      font-family: "Raleway";
+      font-weight: 700;
+      font-size: 13px;
+      padding: 10px 31px;
+      box-sizing: border-box;
+      background-color: #3ab6b2;
+      border: 1px solid white;
+      color: white;
+    }
+  }
+
+  .left-button {
+    position: absolute;
+    left: 30px;
+    top: 39.5%;
+  }
+
+  .right-button {
+    position: absolute;
+    right: 33px;
+    top: 39.5%;
+  }
+}

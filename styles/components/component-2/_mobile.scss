@@ -1,0 +1,51 @@
+@media screen and (max-width: 767px) {
+  .component-2 {
+    padding: 44px 0 58px 0px;
+
+    .text-1 {
+      font-size: 25px;
+      letter-spacing: normal;
+      font-weight: 200;
+      margin-right: 4px;
+    }
+
+    .text-2 {
+      font-size: 30px;
+      margin: -3px 5px 1px 0px;
+      letter-spacing: -0.9px;
+    }
+
+    .text-3 {
+      font-size: 9px;
+      letter-spacing: -0.05px;
+    }
+
+    .mobile-remove {
+      display: none;
+    }
+
+    .button-wrapper {
+      @include flex-center;
+      padding: 2px;
+      margin: 16px 0 0 0px;
+
+      .button {
+        font-weight: 00;
+        font-size: 7px;
+        padding: 2px 8px 2px 10px;
+        box-sizing: border-box;
+        background-color: #3ab6b2;
+        border: 1px solid white;
+        color: white;
+      }
+    }
+
+    .left-button {
+      display: none;
+    }
+
+    .right-button {
+      display: none;
+    }
+  }
+}
