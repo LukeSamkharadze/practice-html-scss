@@ -1,0 +1,65 @@
+@media screen and (max-width: 1024px) {
+  .component-5 {
+    width: 100%;
+    display: flex;
+    padding-top: 73px;
+
+    .text-1 {
+      font-size: 28.99px;
+      margin-bottom: 11px;
+    }
+
+    .icon {
+      margin-bottom: 57px;
+    }
+
+    .container {
+      display: grid;
+      width: auto;
+      height: 480px;
+      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
+      gap: 19px;
+
+      .span2 {
+        grid-column: span 1;
+      }
+
+      .element {
+        height: 230px;
+        min-width: 228px;
+        background-color: black;
+
+        .hover {
+          grid-template-rows: 4fr 40fr;
+
+          .buttons-area {
+            padding: 80px 0px 0 0;
+
+            .icon {
+              width: 37px;
+              height: 37px;
+              border-radius: 37px;
+            }
+          }
+
+          .text-area {
+            .text-2 {
+              font-size: 11px;
+              margin: 10px 0 5px 0;
+              letter-spacing: 0.6px;
+            }
+
+            .text-3 {
+              font-size: 9.99px;
+            }
+          }
+        }
+      }
+
+      .element:nth-child(7) {
+        display: none;
+      }
+    }
+  }
+}
